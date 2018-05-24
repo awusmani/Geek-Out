@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <TextView android:id="@+id/questionHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/questionHeader"
+        android:textSize="25sp"
+        android:paddingTop="10dp"
+        android:textColor="@color/white"
+        android:paddingBottom="25dp"
+        />
+
+    <TextView
+        android:id="@+id/questionPrompt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/sampleQuestion"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="158dp"
+        android:layout_height="42dp"
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:textColor="@color/white"
+        android:id="@+id/gameTimer"
+        />
+
+    <TextView
+        android:id="@+id/entryGuide"
+        android:layout_width="242dp"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:padding="16dp"
+        android:text="@string/entryGuide"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+
+    <EditText
+        android:id="@+id/entryBox"
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:textCursorDrawable="@null"
+        android:textColor="@color/white"
+
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="com.example.joshkosmides.geekout.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp"
+        android:text="G E E K O U T"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/rulesButton"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="156dp"
+        android:layout_height="51dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:text="HOW TO PLAY"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <Button
+        android:id="@+id/practiceButton"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="156dp"
+        android:layout_height="51dp"
+        android:layout_alignStart="@+id/rulesButton"
+        android:layout_below="@+id/rulesButton"
+        android:layout_marginTop="25dp"
+        android:text="Practice"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <Button
+        android:id="@+id/joinButton"
+        android:layout_width="156dp"
+        android:layout_height="51dp"
+        android:layout_alignStart="@+id/rulesButton"
+        android:layout_below="@+id/practiceButton"
+        android:layout_marginTop="29dp"
+        android:text="JOIN GAME"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+
+
+    <Button
+        android:id="@+id/hostButton"
+        android:layout_width="156dp"
+        android:layout_height="51dp"
+        android:layout_alignStart="@+id/joinButton"
+        android:layout_below="@+id/joinButton"
+        android:layout_marginTop="28dp"
+        android:text="HOST GAME"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+</RelativeLayout>

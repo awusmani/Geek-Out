@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "868375187783",
+    "firebase_url": "https://geekout-e4e34.firebaseio.com",
+    "project_id": "geekout-e4e34",
+    "storage_bucket": "geekout-e4e34.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:868375187783:android:0c742c0c3be985c4",
+        "android_client_info": {
+          "package_name": "com.example.joshkosmides.geekout"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "868375187783-tnc9bfq3iacqpbdv3c0vmtnglv15grsv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.joshkosmides.geekout",
+            "certificate_hash": "2db9da9402af59096b09b72fcae411dbc6ca7544"
+          }
+        },
+        {
+          "client_id": "868375187783-7clajp3b89kes2vahdcpith3d07kbhuc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAd4FAOPQIfCeQCcDwigHVRyE-iB2lYKhQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "868375187783-7clajp3b89kes2vahdcpith3d07kbhuc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
